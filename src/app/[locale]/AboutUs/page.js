@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from "next/head";
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 export const metadata = {
   title: "NexasLeads - About Us",
   description: "Discover how our data-driven, customer-centric team at NexasLeads powers B2B growth with innovative lead generation and strategic sales solutions. Partner with us for success.",
@@ -23,6 +24,7 @@ const AboutUs = () => {
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </Head>
   <Navbar />
+  <Footer />
   </div>
   );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BlogPage from "@/components/BlogPage";
 
 export const metadata = {
   title: "NexasLeads - Blog",
@@ -25,6 +26,7 @@ const Blog = () => {
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <Navbar />
+      <BlogPage />
       <Footer />
     </div>
   );

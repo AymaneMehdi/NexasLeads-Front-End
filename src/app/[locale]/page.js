@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Partners1 from "@/components/Partners1";
 import OurServises from "@/components/OurServises";
+import AboutUs from "@/components/AboutUs";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -32,6 +33,7 @@ const HomePage = () => {
         <Partners1 />
       </div>
       <OurServises />
+      <AboutUs />
     </div>
   ) 
 };

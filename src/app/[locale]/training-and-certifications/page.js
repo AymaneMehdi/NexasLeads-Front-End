@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 export const metadata = {
   title: "NexasLeads - Training & Certifications",
   description: "Master business development with expert training. Boost your team's sales skills and close more deals with proven techniques.",
@@ -23,6 +24,7 @@ const TrainingAndCertifications = () => {
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <Navbar />
+      <Footer />
     </div>
   );
 };

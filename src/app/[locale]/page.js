@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Partners1 from "@/components/Partners1";
+import OurServises from "@/components/OurServises";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -30,6 +31,7 @@ const HomePage = () => {
       <div className="-mt-[19rem] sm:-mt-24 md:-mt-20 xl:-mt-28 2xl:-mt-36 py-2">
         <Partners1 />
       </div>
+      <OurServises />
     </div>
   ) 
 };

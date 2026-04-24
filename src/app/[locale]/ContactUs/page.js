@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FAQ from "@/components/FAQ";
+import ContactUsPage from "@/components/ContactUsPage";
 
 export const metadata = {
   title: "NexasLeads - Contact Us",
@@ -26,6 +27,9 @@ const ContactUs = () => {
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </Head>
   <Navbar />
+  <div className='mt-28'>
+    <ContactUsPage />
+  </div>
   <FAQ />
   <Footer />
   </div>

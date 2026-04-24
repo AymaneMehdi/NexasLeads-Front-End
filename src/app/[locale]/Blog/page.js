@@ -13,7 +13,7 @@ export const metadata = {
     follow: true,
   }
 };
-const BusinessDevelopment = () => {
+const Blog = () => {
   return (
     <div>
       <Head>
@@ -25,4 +25,4 @@ const BusinessDevelopment = () => {
     </div>
   );
 };
-export default BusinessDevelopment;
+export default Blog;

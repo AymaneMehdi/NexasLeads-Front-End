@@ -1,3 +1,5 @@
+import Head from "next/head";
+import Navbar from "@/components/Navbar";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -13,7 +15,17 @@ export const metadata = {
   },
 };
 const HomePage = () => {
-  return <div></div>;
+  return(
+    <div>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      </Head>
+      <Navbar />
+    </div>
+  ) 
 };
 
 export default HomePage;

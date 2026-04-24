@@ -5,6 +5,7 @@ import Partners1 from "@/components/Partners1";
 import OurServises from "@/components/OurServises";
 import AboutUs from "@/components/AboutUs";
 import StateCards from "@/components/StateCards";
+import WhyUs from "@/components/WhyUs";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -36,6 +37,7 @@ const HomePage = () => {
       <OurServises />
       <AboutUs />
       <StateCards />
+      <WhyUs />
     </div>
   ) 
 };

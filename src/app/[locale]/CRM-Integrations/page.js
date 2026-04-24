@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from "next/head";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "NexasLeads - CRM Integrations",
@@ -22,6 +23,7 @@ const CRMIntegrations = () => {
         <meta name="keywords" content={metadata.keywords} />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
+      <Navbar />
     </div>
   );
 };

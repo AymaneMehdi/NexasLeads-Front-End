@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -24,6 +25,7 @@ const HomePage = () => {
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <Navbar />
+      <Hero />
     </div>
   ) 
 };

@@ -155,4 +155,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Copyright © NexasLeads
+Copyright© Aymane Mehdi

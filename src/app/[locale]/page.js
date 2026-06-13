@@ -8,6 +8,7 @@ import StateCards from "@/components/StateCards";
 import WhyUs from "@/components/WhyUs";
 import ProspectCalculator from "@/components/ProspectCalculator";
 import Reviews from "@/components/Reviews";
+import CTA from "@/components/cta";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -42,6 +43,7 @@ const HomePage = () => {
       <WhyUs />
       <ProspectCalculator />
       <Reviews />
+      <CTA />
     </div>
   );
 };

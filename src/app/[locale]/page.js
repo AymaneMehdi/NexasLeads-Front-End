@@ -10,6 +10,7 @@ import ProspectCalculator from "@/components/ProspectCalculator";
 import Reviews from "@/components/Reviews";
 import CTA from "@/components/cta";
 import Partners from "@/components/Partners";
+import FAQ from "@/components/FAQ";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -46,6 +47,7 @@ const HomePage = () => {
       <Reviews />
       <CTA />
       <Partners />
+      <FAQ />
     </div>
   );
 };

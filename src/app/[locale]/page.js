@@ -12,6 +12,7 @@ import CTA from "@/components/cta";
 import Partners from "@/components/Partners";
 import FAQ from "@/components/FAQ";
 import ContactUsPage from "@/components/ContactUsPage";
+import Footer from "@/components/Footer";
 export const metadata = {
   title: "NexasLeads",
   description:
@@ -50,6 +51,7 @@ const HomePage = () => {
       <Partners />
       <FAQ />
       <ContactUsPage />
+      <Footer />
     </div>
   );
 };
